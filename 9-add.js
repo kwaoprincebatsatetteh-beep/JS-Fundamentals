@@ -1,6 +1,7 @@
-function add(a,b)
-{return a + b;}
-const num1 = parseInt(Process.argv[2]);
-const num2 = parseInt(Process.argv[3]);
+function add(a,b) {
+    return a + b;}
 
-console.log(add(num1, num2));
+const a = parseInt(Process.argv[2]);
+const b = parseInt(Process.argv[3]);
+
+console.log(add(a, b));
