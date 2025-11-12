@@ -1,8 +1,8 @@
-const arg = process.argv[2];
-const num = parseInt(arg);
+const args = process.argv.slice(2);
+let num1 = parseInt(args[0]);
 
-if (isNaN(num)) {
-    console.log('Not a Number');
-} else {
-    console.log('My Number: is ${num}');
+if(num1.isInteger ===false || isNaN(num1)){
+    console.log('Not a number');
+}else{
+    console.log(`My number: ${num1}`)
 }

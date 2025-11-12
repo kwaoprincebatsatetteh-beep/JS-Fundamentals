@@ -1,3 +1,4 @@
-const languages = ["C is Fun", "Python is cool", "JavaScript is amazing"];
-for (let i = 0; i < languages.length; i++);
-{console.log(languages[i]);}
+const myArray =["C is fun","Python is cool", "JavaScript is amazing"];
+myArray.forEach(element => {
+    console.log(element)
+});

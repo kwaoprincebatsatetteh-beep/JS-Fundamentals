@@ -1,5 +1,3 @@
+const [,, num1, num2] = process.argv;
 
-const args1 = Process.argv[2];
-const args2 = Process.argv[3];
-
-console.log('${arg1} is ${arg2}');
+console.log(`${num1} is ${num2}`)
